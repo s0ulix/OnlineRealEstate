@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            login
+        </title>
+		<link rel="stylesheet" type="text/css" href="login.css">
+        <script>
+            function abc()
+            {
+                var m = document.getElementById("a").value;
+                var p = document.getElementById("b").value;
+                if (m=="test"&&p==1234) {
+                    window.location.href = "main.html";
+                } else {
+                    alert("Incorrect Username or Password");
+                }
+            }
+            function a()
+            {
+                window.location.href = "home.html"
+            }
+        </script>
+       
+    </head>
+    <body style="background-image: url('real2.jpg'); background-repeat: no-repeat; background-size: 100% 100%; background-attachment: fixed;">
+        <div class="ll" onclick="a()">Home</div>
+        <div class="frm"><div class="D">Login</div><br><br> 
+            <input class="in" type="text" name="email" placeholder="Username" id="a"><br><br>
+            <input class="io" type="password" name="password" placeholder="Password" id="b"><br><br>
+            <input class="im" type="submit" name="SUBMIT" value="Login" onclick="abc()">       
+        </div>
+    </body>
+</html>

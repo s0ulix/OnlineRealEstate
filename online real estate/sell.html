@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Sell</title>
+       	<link rel="stylesheet" type="text/css" href="sell.css">
+		<style>
+    .thumb {
+        height: 75px;
+        border: 1px solid #000;
+        margin: 10px 5px 0 0;
+    }
+</style>
+        <script>
+            function pit()
+            {
+                alert("Your Ad is now on, Will display soon");
+                var retVal = confirm("Press Ok to continue");
+                if( retVal == true ){
+                  window.location.href = "main.html";
+                  return true;
+               }
+            }
+			 function a()
+            {
+                window.location.href = "main.html"
+            }
+			
+        </script>
+		<script type="text/javascript">
+    function () {
+        (":file").change(function () {
+            if (this.files && this.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = imageIsLoaded;
+                reader.readAsDataURL(this.files[0]);
+            }
+        });
+    };
+
+</script>
+    </head>
+    <body style="background-image: url('booking.jpg'); background-repeat: no-repeat; background-size: 100% 100%; background-attachment: fixed;">
+ <div class="ll" onclick="a()">Main</div>       
+	   <section class="body">
+            <div class="sheet">
+                <div class="f">   Post Ad to Sell </div>
+               <div class="a">Name &nbsp <input class="i1" type="text" id="fname" placeholder="First Name">&nbsp  <input class="i1" type="text" id="lname" placeholder="Last name"></div> 
+                <div class="b">Phone no.<input class="i2" type="number" id="pno" placeholder="Number"></div>
+                <div class="b">E-Mail &nbsp  &nbsp <input type="text" class="i2" id="mail" placeholder="e-mail"></div>
+                <div class="b">Address  &nbsp  &nbsp <input type="text" class="i2" id="place" placeholder="Place of property"></div>
+				<div class="b">Description
+				<textarea rows="5" cols="25" name="description" placeholder="Enter description........."></textarea></div>
+				<div class="b">Expected price<input class="i2" type="number" id="pno" placeholder="Number"></div>
+                <div class="b">Image &nbsp <input type='file' /></div>
+                <div class="c"> <input type="submit" class="i4" id="submit" onclick="pit()"></div>
+                <div style="height: 80px;"></div>
+            </div>
+        </section>
+    </body>
+</html>

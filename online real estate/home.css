@@ -1,0 +1,64 @@
+ .header{
+                background-color: black;
+                opacity: .8;
+                width: 100%;
+                height: 100px;
+            }
+            .body{
+                height: 600px;
+            }
+            .subhead1{
+            color:white;
+            font-size: 30px;
+            margin-left: 1120px;
+            margin-top: 30px;
+            height: 30px;
+            width: 70px;
+            float: left;
+            }
+            .subhead1:hover{
+                color:aqua;
+                cursor: pointer;
+                font-size: 40px;
+                margin-top: 25;
+                width: fit-content;
+            }
+            .subhead2{
+            color: white;
+            font-size: 30px;
+            height: 30px;
+            margin-top: 30px;
+            margin-left: 30px;
+            float: left;
+            width: 110px;
+            }
+            .subhead2:hover{
+                color:aqua;
+                cursor: pointer;
+                font-size: 40px;
+                margin-top: 25;
+                width: 150px;
+
+            }
+            .subhead3{
+            color: white;
+            font-size: 30px;
+            height: 30px;
+            margin-top: 30px;
+            margin-left: 15px;
+            float: left;
+            width: 125px;
+            }
+            .subhead3:hover{
+                color:aqua;
+                cursor: pointer;
+                font-size: 40px;
+                margin-top: 25;
+                width: 170px;
+            }
+            .subbody{
+                color: whitesmoke;
+                font-size: 100px;
+                padding-left: 280px;
+                padding-top: 200px;
+            }
